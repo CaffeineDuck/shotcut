@@ -15,7 +15,7 @@ the backend very simple and minimaslistic.
 
 ## Try it yourself!
 
-You can try it yourself by visiting [sc.samrid.me](https://sc.samrid.me/docs].
+You can try it yourself by visiting [sc.samrid.me](https://sc.samrid.me/docs).
 
 
 ## Warning
