@@ -1,0 +1,8 @@
+# Aerich
+migrations/
+
+# Python
+__pycache__/
+
+# Env
+.env

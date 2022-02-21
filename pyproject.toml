@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "shotcut"
+version = "0.1.0"
+description = "Just a simple url shortner"
+authors = ["CaffeineDuck <hello@samrid.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["full"], version = "^0.74.0"}
+uvicorn = {extras = ["standard"], version = "^0.17.5"}
+tortoise-orm = {extras = ["asyncpg"], version = "^0.18.1"}
+aerich = "0.5.3"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+
+[tool.aerich]
+tortoise_orm = "tortoise_config.tortoise_config"
+location = "./migrations"
+src_folder = "./."
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
